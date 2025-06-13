@@ -16,7 +16,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 // CORS Configuration
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://local-net-front-f9peth4fg-dixitji002s-projects.vercel.app'],
+  origin: ['http://localhost:3000', 'https://local-net-front-f9peth4fg-dixitji002s-projects.vercel.app','https://local-net-front-end.vercel.app'],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   credentials: true
 }));
